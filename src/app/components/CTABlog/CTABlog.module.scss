@@ -4,16 +4,15 @@
     text-decoration: none;
 }
 .CTABlog {
-    margin-top: 16px;
-    border: 2px solid $colorTwo;
+    margin-bottom: 40px;
+    box-shadow: 0 0 16px $heavyShadowOne;
     padding: 24px;
     border-radius: 16px;
-    background-color: $shadowTwo;
+    background-color: $shadowOne;
     cursor: pointer;
     &:hover {
-        
-    border: 2px solid $colorOne;
-    background-color: $shadowOne;
+    box-shadow: 0 0 16px $heavyShadowTwo;
+    background-color: $shadowTwo;
     }
     .go {
         text-align: center;
