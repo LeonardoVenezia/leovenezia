@@ -14,10 +14,10 @@ const Post = ({ params }) => {
                 <div className={styles.titleContainer}>
                     <h1 className={`${styles.title} ${arimo.className}`}>{d.title}</h1>
                 </div>
-                <Image className={styles.img} src={d.img} fill />
+                <Image className={styles.img} src={d.img} fill alt={`${d.title} image`} />
             </header>
             {
-                d.sections.map(s => <Section data={s} />)
+                d.sections.map(s => <Section  key={s.section} data={s} />)
             }
         </>
     );

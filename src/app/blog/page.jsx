@@ -15,7 +15,7 @@ const Posts = () => {
                 {
                     posts.posts.map((p, index) => {
                         return (
-                            <PostCard p={p} index={index} />
+                            <PostCard key={`${p.title}_${index}`} p={p} index={index} />
                         );
                     })
                 }

@@ -32,8 +32,10 @@ const refresh = ()=> {
 refresh();
 `;
 
-export default {
+const codes = {
     mvcModel,
     mvcController,
     mvcView,
 }
+
+export default codes;

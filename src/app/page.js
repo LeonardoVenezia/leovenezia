@@ -12,7 +12,7 @@ export default function Home() {
           <p className={styles.subtitle}>Frontend engineer</p>
         </div>
         <div className={styles.imgContainer}>
-          <Image src="/profile.jpg" fill />
+          <Image src="/profile.jpg" fill alt="Profile photo" />
         </div>
       </header>
       <CTABlog />

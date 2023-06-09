@@ -3,7 +3,7 @@ import styles from './PostCard.module.scss';
 
 const PostCard = ({ p, index }) => {
     const intro = p.sections[0];
-    const content = intro.content.map(c => <p className={styles.p}>{c.content}</p>)
+    const content = intro.content.map(c => <p key={c.content} className={styles.p}>{c.content}</p>)
 
     return (
         <Link className={styles.link} href={`/blog/${index}`}>
