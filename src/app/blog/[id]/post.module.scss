@@ -1,0 +1,25 @@
+.header {
+    aspect-ratio: 8/2;
+    position: relative;
+    border-radius: 16px;
+    margin-top: 16px;
+    overflow: hidden;
+    .img {
+        object-fit: cover;
+    }
+    .titleContainer {
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #42D8EB, $alpha: .7);
+        position: absolute;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px;
+        .title {
+            font-size: 44px;
+            text-align: center;
+        }
+    }
+}

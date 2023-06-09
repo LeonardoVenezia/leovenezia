@@ -1,0 +1,23 @@
+@import "../../styles/variables.sass";
+
+.link {
+    text-decoration: none;
+}
+.CTABlog {
+    margin-top: 16px;
+    border: 2px solid $colorTwo;
+    padding: 24px;
+    border-radius: 16px;
+    background-color: $shadowTwo;
+    cursor: pointer;
+    &:hover {
+        
+    border: 2px solid $colorOne;
+    background-color: $shadowOne;
+    }
+    .go {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 800;
+    }
+}

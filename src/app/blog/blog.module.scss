@@ -1,0 +1,48 @@
+@import "../styles/variables.sass";
+
+.Posts {
+    padding: 0 10%;
+
+    .header {
+        aspect-ratio: 16/5;
+        border-radius: 16px;
+        margin: 16px 0 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 2px rgba(66, 216, 235, .3);
+        background-image: linear-gradient(175deg,
+                hsl(218deg 80% 61%) 0%,
+                hsl(211deg 86% 58%) 0%,
+                hsl(205deg 90% 52%) 0%,
+                hsl(201deg 100% 48%) 0%,
+                hsl(199deg 100% 48%) 0%,
+                hsl(197deg 100% 48%) 0%,
+                hsl(195deg 100% 48%) 0%,
+                hsl(193deg 100% 48%) 0%,
+                hsl(191deg 100% 48%) 1%,
+                hsl(189deg 100% 47%) 1%,
+                hsl(188deg 85% 54%) 1%,
+                hsl(187deg 81% 59%) 2%,
+                hsl(187deg 80% 65%) 2%,
+                hsl(188deg 79% 70%) 3%,
+                hsl(188deg 78% 74%) 4%,
+                hsl(188deg 78% 78%) 5%,
+                hsl(188deg 77% 81%) 6%,
+                hsl(188deg 77% 85%) 8%,
+                hsl(188deg 77% 88%) 11%,
+                hsl(188deg 76% 91%) 15%,
+                hsl(188deg 76% 94%) 22%,
+                hsl(188deg 76% 97%) 34%,
+                hsl(0deg 0% 100%) 99%);
+                .title {
+                    font-size: 50px;
+                }
+    }
+
+    .section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 16px;
+    }
+}

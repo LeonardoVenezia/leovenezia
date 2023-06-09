@@ -1,0 +1,36 @@
+@import '../../styles/variables.sass';
+
+.Section {
+    margin-top: 16px;
+    padding: 16px 16px 2px 16px;
+    border-radius: 16px;
+    .title {
+        margin: 4px 0 24px;
+        font-size: 32px;
+    }
+}
+
+.one {
+    border: 2px solid $colorOne;
+    background-color: $shadowOne;
+}
+
+.two {
+    border: 2px solid $colorTwo;
+    background-color: $shadowTwo;
+}
+
+.three {
+    border: 2px solid $colorThree;
+    background-color: $shadowThree;
+}
+
+.four {
+    border: 2px solid $colorFour;
+    background-color: $shadowFour;
+}
+
+.five {
+    border: 2px solid $colorFive;
+    background-color: $shadowFive;
+}
