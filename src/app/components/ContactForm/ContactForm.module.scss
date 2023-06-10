@@ -2,14 +2,19 @@
 
 .ContactForm {
     display: flex;
+    flex-wrap: wrap;
 
     .formContainer {
-        width: 100%;
+        width: 60%;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         padding: 16px;
+
+        @media (max-width:800px) {
+            width: 100%;
+        }
 
         .title {
             text-align: center;
@@ -50,6 +55,7 @@
                 border: none;
                 box-shadow: 0 0 10px $heavyShadowOne;
                 border-radius: 8px;
+
                 &:hover {
                     box-shadow: 0 0 10px $heavyShadowTwo;
                 }
@@ -58,7 +64,26 @@
     }
 
     .socialContainer {
-        width: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 40%;
+
+        @media (max-width:800px) {
+            width: 100%;
+            margin-top: 32px;
+        }
+
+        .rowSocial {
+            display: flex;
+            gap: 20px;
+            a {
+                box-shadow: 0 0 10px $heavyShadowOne;
+                border-radius: 50%;
+            }
+        }
     }
 }
 
