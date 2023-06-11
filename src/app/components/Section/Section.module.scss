@@ -1,7 +1,7 @@
-@import '../../styles/variables.sass';
+@import '../../styles/variables.scss';
 
 .Section {
-    margin-top: 16px;
+    margin-top: 24px;
     padding: 16px 16px 2px 16px;
     border-radius: 16px;
     .title {
@@ -11,26 +11,35 @@
 }
 
 .one {
-    border: 2px solid $colorOne;
+    // box-shadow: 0 0 10px $colorOne;
+    @include shadow1;
     background-color: $shadowOne;
 }
 
 .two {
-    border: 2px solid $colorTwo;
+    
+    @include shadow2;
+    // box-shadow: 0 0 10px $colorTwo;
     background-color: $shadowTwo;
 }
 
 .three {
-    border: 2px solid $colorThree;
+    
+    @include shadow3;
+    // box-shadow: 0 0 10px $colorThree;
     background-color: $shadowThree;
 }
 
 .four {
-    border: 2px solid $colorFour;
+    
+    @include shadow4;
+    // box-shadow: 0 0 10px $colorFour;
     background-color: $shadowFour;
 }
 
 .five {
-    border: 2px solid $colorFive;
+    
+    @include shadow5;
+    // box-shadow: 0 0 10px $colorFive;
     background-color: $shadowFive;
 }

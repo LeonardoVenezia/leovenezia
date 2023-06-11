@@ -1,0 +1,34 @@
+@import "../styles/variables.scss";
+
+.Layout {
+    padding: 0 10% 32px;
+    background-color: $darkBack;
+    min-height: 100vh;
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 0 8px;
+
+        .profile {
+            // filter: drop-shadow(0 0 10px $heavyShadowOne);
+            border-radius: 50%;
+            @include mixedFilter1;
+
+            &:hover {
+                box-shadow: 0 0 10px $heavyShadowTwo;
+            }
+        }
+
+        .links {
+            display: flex;
+            list-style: none;
+            gap: 10px;
+
+            a {
+                box-shadow:  0 0 10px $heavyShadowOne;
+                border-radius: 50%;
+            }
+        }
+    }
+}

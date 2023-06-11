@@ -1,19 +1,24 @@
-@import "../../styles/variables.sass";
+@import "../../styles/variables.scss";
 
 .link {
     text-decoration: none;
 }
+
 .CTABlog {
     margin-bottom: 60px;
-    box-shadow: 0 0 16px $heavyShadowOne;
+    // box-shadow: 0 0 16px $heavyShadowOne;
+    @include shadow1;
     padding: 24px;
     border-radius: 16px;
     background-color: $shadowOne;
     cursor: pointer;
+
     &:hover {
-    box-shadow: 0 0 16px $heavyShadowTwo;
-    background-color: $shadowTwo;
+        // box-shadow: 0 0 16px $heavyShadowTwo;
+        @include shadow2;
+        background-color: $shadowTwo;
     }
+
     .go {
         text-align: center;
         font-size: 32px;

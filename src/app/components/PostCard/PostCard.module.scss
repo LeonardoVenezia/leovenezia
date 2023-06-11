@@ -1,14 +1,16 @@
+@import "../../styles/variables.scss";
+
 .link {
     text-decoration: none;
 }
 .PostCard {
-    box-shadow: 0 0 7px rgba(66, 216, 235, .3);
+    @include shadow1;
     padding: 16px;
     border-radius: 16px;
     max-height: 250px;
     transition: .3s;
     &:hover {
-        box-shadow: 0 0 10px rgba(66, 216, 235, .4);
+        @include shadow2;
         transform: scale(1.01);
     }
     .title {

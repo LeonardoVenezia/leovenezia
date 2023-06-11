@@ -1,0 +1,48 @@
+$colorOne: #42D8EB;
+$colorTwo: #36EB9B;
+$colorThree: #EB6E59;
+$colorFour: #EBAD2A;
+$colorFive: #4D86EB;
+
+$shadowOne: rgba(66, 216, 235, .03);
+$shadowTwo: rgba(54, 235, 155, .03);
+$shadowThree: rgba(235, 110, 89, .03);
+$shadowFour: rgba(235, 173, 42, .03);
+$shadowFive: rgba(77, 134, 235, .03);
+
+$heavyShadowOne: rgba(66, 216, 235, .55);
+$heavyShadowTwo: rgba(54, 235, 155, .55);
+$heavyShadowThree: rgba(235, 110, 89, .55);
+$heavyShadowFour: rgba(235, 173, 42, .55);
+$heavyShadowFive: rgba(77, 134, 235, .55);
+
+@mixin shadow1 {
+    box-shadow: 0 0 8px $colorOne, 0 0 30px $heavyShadowOne, 0 0 60px $shadowOne;
+}
+@mixin shadow2 {
+    box-shadow: 0 0 10px $colorTwo, 0 0 30px $heavyShadowTwo, 0 0 50px $shadowTwo;
+}
+@mixin shadow3 {
+    box-shadow: 0 0 10px $colorThree, 0 0 30px $heavyShadowThree, 0 0 50px $shadowThree;
+}
+@mixin shadow4 {
+    box-shadow: 0 0 10px $colorFour, 0 0 30px $heavyShadowFour, 0 0 50px $shadowFour;
+}
+@mixin shadow5 {
+    box-shadow: 0 0 10px $colorFive, 0 0 30px $heavyShadowFive, 0 0 50px $shadowFive;
+}
+@mixin mixedShadow1 {
+    box-shadow: -3px -3px 8px $colorOne, -3px -3px 30px $heavyShadowOne, -3px -3px 60px $shadowOne, 3px 3px 10px $colorTwo, 3px 3px 30px $heavyShadowTwo, 3px 3px 50px $shadowTwo;
+}
+@mixin shadowFilter1 {
+    filter: drop-shadow(-3px -3px 8px $colorOne) drop-shadow(-3px -3px 30px $heavyShadowOne) drop-shadow(-3px -3px 60px $shadowOne);
+}
+@mixin mixedFilter1 {
+    filter: drop-shadow(0 0 0 $colorOne) drop-shadow(0 0 10px $heavyShadowOne) drop-shadow(0 0 30px $shadowOne) drop-shadow(3px 3px 10px $colorTwo) drop-shadow(3px 3px 30px $heavyShadowTwo) drop-shadow(3px 3px 50px $shadowTwo);
+}
+
+$darkBack: #121212;
+$primaryColor: #1F1B24;
+$textColorHight: rgba(255, 255, 255, .9);
+$textMedium: rgba(255, 255, 255, .7);
+$textWeak: rgba(255, 255, 255, .5);

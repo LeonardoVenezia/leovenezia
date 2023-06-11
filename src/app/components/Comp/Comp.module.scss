@@ -1,16 +1,27 @@
-.Comp  {
+.Comp {
     width: 100%;
+
     .element {
         font-size: 18px;
         margin-bottom: 18px;
         max-width: 100%;
+        border-radius: 16px;
     }
+
     h3.element {
         font-size: 22px;
     }
+
+    img.element {
+        display: block;
+        margin: 0 auto 18px;
+    }
+
     div {
         margin-bottom: 16px;
-        span {
+        border-radius: 12px;
+
+        code {
             font-size: 18px;
         }
     }

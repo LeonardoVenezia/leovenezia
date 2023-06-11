@@ -1,7 +1,7 @@
 'use client';
 import codes from "@/app/code";
 
-import { CopyBlock, atomOneLight } from "react-code-blocks";
+import { CopyBlock, dracula } from "react-code-blocks";
 
 const Code = ({code}) => {
     return (
@@ -11,7 +11,7 @@ const Code = ({code}) => {
             // showLineNumbers
             // startingLineNumber={0}
             wrapLines
-            theme={atomOneLight}
+            theme={dracula}
         />
     );
 }

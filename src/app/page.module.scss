@@ -1,10 +1,11 @@
-@import "./styles/variables.sass";
+@import "./styles/variables.scss";
 .Home {
     padding: 16px 10%;
     .header {
         aspect-ratio: 16/5;
         display: flex;
         margin-bottom: 60px;
+        margin-top: 16px;
         .titleContainer {
             width: 70%;
             height: 100%;
@@ -14,6 +15,7 @@
             align-items: center;
             .title{
                 font-size: 48px;
+                text-shadow: 0 0 8px $colorOne, 0 0 30px $heavyShadowOne, 0 0 60px $shadowOne;
             }
             .subtitle {
                 color: $colorOne;
@@ -26,7 +28,8 @@
             position: relative;
             border-radius: 16px;
             overflow: hidden;
-            box-shadow: 0 0 10px $heavyShadowOne;
+            // filter: drop-shadow(0 0 10px $heavyShadowOne);
+            @include shadowFilter1;
         }
     }
 }

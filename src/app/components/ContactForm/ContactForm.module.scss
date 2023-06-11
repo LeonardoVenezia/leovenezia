@@ -1,4 +1,4 @@
-@import "../../styles/variables.sass";
+@import "../../styles/variables.scss";
 
 .ContactForm {
     display: flex;
@@ -32,7 +32,7 @@
             .input {
                 all: unset;
                 padding: 8px;
-                box-shadow: 0 0 10px $heavyShadowOne;
+                @include shadow1;
                 border-radius: 8px;
                 width: 100%;
                 margin-bottom: 20px;
@@ -42,22 +42,22 @@
                 all: unset;
                 resize: none;
                 padding: 8px;
-                box-shadow: 0 0 10px $heavyShadowOne;
+                @include shadow1;
                 border-radius: 8px;
                 width: 100%;
                 margin-bottom: 20px;
             }
 
             .submit {
-                background-color: #fff;
+                background-color: transparent;
                 width: 80%;
                 padding: 8px;
                 border: none;
-                box-shadow: 0 0 10px $heavyShadowOne;
+                @include shadow1;
                 border-radius: 8px;
 
                 &:hover {
-                    box-shadow: 0 0 10px $heavyShadowTwo;
+                    @include shadow2;
                 }
             }
         }
@@ -80,7 +80,7 @@
             display: flex;
             gap: 20px;
             a {
-                box-shadow: 0 0 10px $heavyShadowOne;
+                @include shadow1;
                 border-radius: 50%;
             }
         }

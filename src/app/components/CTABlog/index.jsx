@@ -6,7 +6,7 @@ const CTABlog = ()=> {
         
       <Link className={styles.link} href="/blog">
         <div className={styles.CTABlog}>
-            <p className={styles.go}>GO TO BLOG</p>
+            <h2 className={styles.go}>GO TO BLOG</h2>
         </div>
       </Link>
     );
