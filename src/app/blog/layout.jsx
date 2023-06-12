@@ -12,22 +12,22 @@ const Layout = ({ children }) => {
                 </Link>
                 <ul className={styles.links}>
                     <li>
-                        <SocialIcon fgColor="#ffffff" url="https://linkedin.com/jaketrent" />
+                        <SocialIcon fgColor="#ffffff" url="https://linkedin.com/leovenezia" />
                     </li>
                     <li>
-                        <SocialIcon fgColor="#ffffff" url="https://github.com/jaketrent" />
+                        <SocialIcon fgColor="#ffffff" url="https://github.com/SilicOnTheWay" />
                     </li>
                     <li>
-                        <SocialIcon fgColor="#ffffff" url="https://instagram.com/jaketrent" />
+                        <SocialIcon fgColor="#ffffff" url="https://instagram.com/silicontheway" />
                     </li>
                     <li>
-                        <SocialIcon fgColor="#ffffff" url="https://tiktok.com/jaketrent" />
+                        <SocialIcon fgColor="#ffffff" url="https://tiktok.com/SilicOnTheWay" />
                     </li>
                     <li>
-                        <SocialIcon fgColor="#ffffff" url="https://twitter.com/jaketrent" />
+                        <SocialIcon fgColor="#ffffff" url="https://twitter.com/silicOnTheWay" />
                     </li>
                     <li>
-                        <SocialIcon fgColor="#ffffff" url="https://youtube.com/jaketrent" />
+                        <SocialIcon fgColor="#ffffff" url="https://youtube.com/SilicOnTheWay" />
                     </li>
                 </ul>
             </nav>

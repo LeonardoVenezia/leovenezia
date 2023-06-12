@@ -47,13 +47,13 @@ const ContactForm = () => {
             <div className={styles.socialContainer}>
                 <div className={styles.rowSocial}>
                     <SocialIcon fgColor="#ffffff" url="https://linkedin.com/in/leovenezia" />
-                    <SocialIcon fgColor="#ffffff" url="https://github.com/jaketrent" />
+                    <SocialIcon fgColor="#ffffff" url="https://github.com/SilicOnTheWay" />
                 </div>
                 <div className={styles.rowSocial}>
-                    <SocialIcon fgColor="#ffffff" url="https://instagram.com/jaketrent" />
-                    <SocialIcon fgColor="#ffffff" url="https://tiktok.com/jaketrent" />
-                    <SocialIcon fgColor="#ffffff" url="https://twitter.com/jaketrent" />
-                    <SocialIcon fgColor="#ffffff" url="https://gityoutubehub.com/jaketrent" />
+                    <SocialIcon fgColor="#ffffff" url="https://instagram.com/silicontheway" />
+                    <SocialIcon fgColor="#ffffff" url="https://tiktok.com/SilicOnTheWay" />
+                    <SocialIcon fgColor="#ffffff" url="https://twitter.com/silicOnTheWay" />
+                    <SocialIcon fgColor="#ffffff" url="https://youtube.com/SilicOnTheWay" />
                 </div>
 
             </div>
