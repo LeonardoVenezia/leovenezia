@@ -3,6 +3,7 @@
         {
             "title": "Design Pattern: MVC",
             "img": "/posts/MVC.jpg",
+            "tags": ["Design patters"],
             "sections": [
                 {
                     "section": "Intoduction",
@@ -11,6 +12,102 @@
                         {
                             "type": "p",
                             "content": "MVC is a widely used pattern in web and desktop applications because it is useful for dividing the responsibilities of the code."
+                        }
+                    ]
+                },
+                {
+                    "section": "Purpose",
+                    "color": "two",
+                    "content": [
+                        {
+                            "type": "p",
+                            "content": "The objective of the MCV pattern is to facilitate the management of an application by splitting it into three parts: model, view, and controller."
+                        }
+                    ]
+                },
+                {
+                    "section": "Method",
+                    "color": "four",
+                    "content": [
+                        {
+                            "type": "p",
+                            "content": "The code will be divided in three concepts:"
+                        },
+                        {
+                            "type": "p",
+                            "content": "Model: It functions like a database. In this component, you will store all the data of your app."
+                        },
+                        {
+                            "type": "p",
+                            "content": "Controller: It serves as the application core. This is where the logic resides that connects the data with the interface."
+                        },
+                        {
+                            "type": "p",
+                            "content": "View: It represents the application's user interface. It includes forms, texts, buttons, and other related elements."
+                        },
+                        {
+                            "type": "img",
+                            "props": {
+                                "src": "/posts/MVC.jpg",
+                                "alt": "MVC Pattern"
+                            },
+                            "content": null
+                        }
+                    ]
+                },
+                {
+                    "section": "Code example",
+                    "color": "five",
+                    "content": [
+                        {
+                            "type": "h3",
+                            "content": "MODEL"
+                        },
+                        {
+                            "type": "code",
+                            "props": {
+                                "code": "mvcModel"
+                            },
+                            "content": null
+                        },
+                        {
+                            "type": "h3",
+                            "content": "CONTROLLER"
+                        },
+                        {
+                            "type": "code",
+                            "props": {
+                                "code": "mvcController"
+                            },
+                            "content": null
+                        },
+                        {
+                            "type": "h3",
+                            "content": "VIEW"
+                        },
+                        {
+                            "type": "code",
+                            "props": {
+                                "code": "mvcView"
+                            },
+                            "content": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Design Pattern: Flux",
+            "img": "/posts/MVC.jpg",
+            "tags": ["Design patters"],
+            "sections": [
+                {
+                    "section": "Intoduction",
+                    "color": "one",
+                    "content": [
+                        {
+                            "type": "p",
+                            "content": "Flux was born within the Facebook team as a solution for scalability problems in complex web applications. Flux is about "
                         }
                     ]
                 },
