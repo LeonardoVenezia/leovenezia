@@ -21,7 +21,7 @@ const Modal = ({ data, onClose }) => {
                     <h2 className={styles.name}>{name}</h2>
                     <p className={styles.company}>Company: <span>{company}</span></p>
                     {
-                        description.map(d => <p className={styles.description}>{d}</p>)
+                        description.map(d => <p key={d} className={styles.description}>{d}</p>)
                     }
                     <Tags tags={tecnologies} />
                 </div>
