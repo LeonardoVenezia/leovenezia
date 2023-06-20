@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "name": "BBVA Home banking",
+            "company": "Globant",
+            "img": "/portfolio/glomo.jpg",
+            "description": ["I was part of a huge international team divided across various parts of Europe and America. We worked with agile methodologies, a combination of Scrum and Kanban, and followed best coding practices, mainly based on SOLID principles.", "As a Frontend Developer, I assisted in designing complex features and played a significant role as a mentor for new team members.", "The project was built using Cells, a client's proprietary framework. This posed the greatest challenge as there was no documentation, and we had to reverse engineer how Cells worked."],
+            "link": "https://play.google.com/store/apps/details?id=com.bbva.nxt_argentina&hl=en_US",
+            "tecnologies": ["Polymer", "Cells", "Sass", "Moca", "Chai", "Web components"]
+        },
+        {
+            "name": "Starmeup",
+            "company": "Globant",
+            "img": "/portfolio/starmeup.png",
+            "description": ["Starmeup is a team building tool that allows teammates to give feedback to each other.", "As a Frontend Developer, I coded with Next.js and tested with react-testing-library. Additionally, I performed a refactor on legacy code to ensure code maintainability and readability."],
+            "link": "https://os.starmeup.com/",
+            "tecnologies": ["Next", "React", "Javascript", "React-testing-library", "Sass", "Redux", "Material UI"]
+        },
+        {
+            "name": "Veracity",
+            "company": "Dualboot Partners",
+            "img": "/portfolio/veracity.png",
+            "description": ["Veracity is an edtech marketplace. I started this project from scratch, defining the tech stack and providing guidance to the rest of the team to ensure a successful implementation.", "I opted for the MERN stack because it comprises reliable technologies and the team already had experience with them."],
+            "link": "https://www.veracityvs.com/",
+            "tecnologies": ["Next" ,"React", "Javascript", "Tailwind", "Redux Toolkit"]
+        },
+        {
+            "name": "Autosled",
+            "company": "Dualboot Partners",
+            "img": "/portfolio/autosled.jpg",
+            "description": ["Autosled is an automotive transportation logistics platform and marketplace.", "My role in Autosled was to refactor a lot of code smells and migrate old React to React v18.", "The biggest challenge was detecting unused components and endpoints and deleting them without breaking the rest of the code."],
+            "link": "https://autosled.com/",
+            "tecnologies": ["React", "Javascript", "Redux"]
+        },
+        {
+            "name": "Learn Programming",
+            "company": "Me",
+            "img": "/portfolio/learnPrograming.jpg",
+            "description": ["This project aims to help novice programmers learn the most sought-after skills in each stage of their careers.", "I build Learn Programming with Ionic + React, and its only able for Android.", "The biggest challenge was uploading the app to Google Play. I had to learn how to build and deploy using Android Studio, and I also learned Ionic from scratch. It was a very enriching project for me.", "In the future, I will create more apps like this—simple but useful."],
+            "link": "https://play.google.com/store/apps/details?id=com.learnprograming.learnprograming",
+            "tecnologies": ["Ioic", "Javascript", "React", "Redux"]
+        }
+    ]
+}

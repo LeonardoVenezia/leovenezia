@@ -1,0 +1,17 @@
+.Portfolio {
+    margin-bottom: 110px;
+
+    .title {
+        text-align: center;
+        font-size: 32px;
+        font-weight: 800;
+        margin-bottom: 40px;
+    }
+
+    .container {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

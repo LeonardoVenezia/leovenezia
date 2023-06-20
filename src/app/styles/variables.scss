@@ -16,6 +16,8 @@ $heavyShadowThree: rgba(235, 110, 89, .55);
 $heavyShadowFour: rgba(235, 173, 42, .55);
 $heavyShadowFive: rgba(77, 134, 235, .55);
 
+$heavyestShadowOne: rgba(66, 216, 235, .9);
+
 @mixin shadow1 {
     box-shadow: 0 0 8px $colorOne, 0 0 30px $heavyShadowOne, 0 0 60px $shadowOne;
 }
@@ -46,3 +48,5 @@ $primaryColor: #1F1B24;
 $textColorHight: rgba(255, 255, 255, .9);
 $textMedium: rgba(255, 255, 255, .7);
 $textWeak: rgba(255, 255, 255, .5);
+
+$ligthBlack: #0F172A;

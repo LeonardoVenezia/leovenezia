@@ -1,0 +1,14 @@
+@import "../../styles/variables.scss";
+
+.Tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style: none;
+    .tag {
+        border: 1px solid $colorThree;
+        color: $colorThree;
+        padding: 8px 12px;
+        border-radius: 16px;
+    }
+}

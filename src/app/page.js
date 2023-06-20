@@ -2,6 +2,7 @@ import Image from 'next/image'
 import styles from './page.module.scss'
 import CTABlog from './components/CTABlog';
 import ContactForm from './components/ContactForm';
+import Portfolio from './components/Portfolio';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         </div>
       </header>
       <CTABlog />
+      <Portfolio />
       <ContactForm />
     </main>
   )
