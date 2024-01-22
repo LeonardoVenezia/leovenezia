@@ -19,10 +19,21 @@
         border-radius: 16px;
         padding: 20px;
         display: flex;
+        @media (max-width: $breakpoint2) {
+            width: 90vw;
+            height: 90vh;
+        }
+        @media (max-width: $breakpoint) {
+            width: 96vw;
+            height: 96vh;
+        }
 
         .dataContainer {
             width: 60%;
             padding: 20px;
+            @media (max-width: $breakpoint) {
+                width: 100%;
+            }
 
             .name {
                 text-align: center;
@@ -80,6 +91,9 @@
             width: 40%;
             border-radius: 18px;
             overflow: hidden;
+            @media (max-width: $breakpoint) {
+                display: none;
+            }
         }
     }
 }
