@@ -1,7 +1,7 @@
 import './globals.css';
 import { Arimo } from 'next/font/google';
 
-const arimo = Arimo({ subsets: ['latin'], weight: ["400"], })
+const arimo = Arimo({ subsets: ['latin'], weight: ["400", "700"], })
 
 export const metadata = {
   title: 'Leonardo Venezia',

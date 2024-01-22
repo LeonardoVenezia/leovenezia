@@ -1,12 +1,11 @@
 import Link from "next/link";
 import styles from "./CTABlog.module.scss";
 
-const CTABlog = ()=> {
+const CTABlog = ({link= "https://silicontheway.hashnode.dev/", text="Go to blog", download})=> {
     return (
-        
-      <Link className={styles.link} href="https://silicontheway.hashnode.dev/">
+      <Link className={styles.link} href={link} target="_blank">
         <div className={styles.CTABlog}>
-            <h2 className={styles.go}>GO TO BLOG</h2>
+            <h2 className={styles.go}>{text}</h2>
         </div>
       </Link>
     );

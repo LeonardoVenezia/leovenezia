@@ -12,7 +12,12 @@ const Proyect = ({ data, handleShowModal }) => {
             </div>
             <div className={styles.filter}>
                 <div className={styles.mask} />
-                <Image src={data.img} fill style={{ objectFit: "cover" }} alt={data.name} />
+                <Image
+                    className={styles.image}
+                    src={data.img}
+                    fill
+                    alt={data.name}
+                />
             </div>
         </div>
     );

@@ -5,23 +5,32 @@
 }
 
 .CTABlog {
-    margin-bottom: 110px;
+    // margin-bottom: 110px;
     // box-shadow: 0 0 16px $heavyShadowOne;
-    @include shadow1;
-    padding: 24px;
+    // @include shadow1;
+    padding: 16px 20px;
     border-radius: 16px;
-    background-color: $shadowOne;
+    background-color: $ligthBlack2;
     cursor: pointer;
 
     &:hover {
         // box-shadow: 0 0 16px $heavyShadowTwo;
-        @include shadow2;
+        @include mixedShadow1;
         background-color: $shadowTwo;
     }
+    @media (max-width: $breakpoint) {
+        // padding: 16px 24px;
+        width: 80vw;
+        @include mixedShadow1;
+    }
 
+    
     .go {
         text-align: center;
-        font-size: 32px;
+        font-size: 20px;
         font-weight: 800;
+        @media (max-width: $breakpoint) {
+            font-size: 24px;
+        }
     }
 }

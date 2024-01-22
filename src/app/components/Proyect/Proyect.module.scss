@@ -1,49 +1,63 @@
 @import "../../styles/variables.scss";
 
 .Proyect {
-    position: relative;
     width: 250px;
-    height: 300px;
+    height: 500px;
     border-radius: 16px;
     overflow: hidden;
-    // @include mixedShadow1;
+    object-position: center;
     &:hover {
-        @include shadow1;
+        @include mixedShadow1;
         cursor: pointer;
+        .filter {
+            .mask {
+                background-color: rgba(66, 216, 235, .5);
+            }
+        }
+    }
+
+    @media (max-width: $breakpoint2) {
+        height: 250px;
+        width: 100%;
+        @include mixedShadow1;
     }
 
     .nameContainer {
         display: grid;
         place-items: center;
-        position: absolute;
         width: 100%;
-        height: 100%;
+        height: 75px;
         padding: 8px;
+        background-color: $ligthBlack2;
 
         .name {
-            color: white;
-            z-index: 2;
+            color: $colorOne;
             text-align: center;
-            font-size: 20px;
-            font-weight: bold;
+            font-size: 24px;
+            font-weight: 700;
             pointer-events: none;
         }
     }
 
     .filter {
-        z-index: 1;
+        position: relative;
         width: 100%;
-        height: 100%;
+        height: 425px;
+        overflow: hidden;
+        @media (max-width: $breakpoint2) {
+            height: 175px;
+        }
 
         .mask {
-            z-index: 1;
-            position: relative;
-            background-color: $colorOne;
+            z-index: 2;
+            position: absolute;
             width: 100%;
             height: 100%;
-            &:hover {
-                background-color: rgba(66, 216, 235, .75);
-            }
+        }
+        .image {
+            object-fit: cover;
+            object-position: center;
+            z-index: 1;
         }
     }
 }

@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 .Portfolio {
     margin-bottom: 110px;
 
@@ -11,7 +13,26 @@
     .container {
         display: flex;
         gap: 16px;
-        flex-wrap: wrap;
         justify-content: center;
+        @media (max-width: $breakpoint2) {
+            flex-direction: column;
+        }
+    }
+    .among {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 20px;
+        .one {
+            font-size: 28px;
+            color: $colorTwo;
+        }
+        .two {
+            font-size: 28px;
+            color: $colorThree;
+        }
+        .three {
+            font-size: 28px;
+            color: $colorFive;
+        }
     }
 }

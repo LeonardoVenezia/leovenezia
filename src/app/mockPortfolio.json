@@ -31,14 +31,6 @@
             "description": ["Autosled is an automotive transportation logistics platform and marketplace.", "My role in Autosled was to refactor a lot of code smells and migrate old React to React v18.", "The biggest challenge was detecting unused components and endpoints and deleting them without breaking the rest of the code."],
             "link": "https://autosled.com/",
             "tecnologies": ["React", "Javascript", "Redux"]
-        },
-        {
-            "name": "Learn Programming",
-            "company": "Me",
-            "img": "/portfolio/learnPrograming.jpg",
-            "description": ["This project aims to help novice programmers learn the most sought-after skills in each stage of their careers.", "I build Learn Programming with Ionic + React, and its only able for Android.", "The biggest challenge was uploading the app to Google Play. I had to learn how to build and deploy using Android Studio, and I also learned Ionic from scratch. It was a very enriching project for me.", "In the future, I will create more apps like this—simple but useful."],
-            "link": "https://play.google.com/store/apps/details?id=com.learnprograming.learnprograming",
-            "tecnologies": ["Ioic", "Javascript", "React", "Redux"]
         }
     ]
 }

@@ -22,7 +22,7 @@ $heavyestShadowOne: rgba(66, 216, 235, .9);
     box-shadow: 0 0 8px $colorOne, 0 0 30px $heavyShadowOne, 0 0 60px $shadowOne;
 }
 @mixin shadow2 {
-    box-shadow: 0 0 10px $colorTwo, 0 0 30px $heavyShadowTwo, 0 0 50px $shadowTwo;
+    box-shadow: 0 0 2px $colorTwo, 0 0 5px $heavyShadowTwo, 0 0 12px $shadowTwo;
 }
 @mixin shadow3 {
     box-shadow: 0 0 10px $colorThree, 0 0 30px $heavyShadowThree, 0 0 50px $shadowThree;
@@ -34,7 +34,10 @@ $heavyestShadowOne: rgba(66, 216, 235, .9);
     box-shadow: 0 0 10px $colorFive, 0 0 30px $heavyShadowFive, 0 0 50px $shadowFive;
 }
 @mixin mixedShadow1 {
-    box-shadow: -3px -3px 8px $colorOne, -3px -3px 30px $heavyShadowOne, -3px -3px 60px $shadowOne, 3px 3px 10px $colorTwo, 3px 3px 30px $heavyShadowTwo, 3px 3px 50px $shadowTwo;
+    box-shadow: -.5px -.5px 2px $colorOne, -.5px -.5px 5px $heavyShadowOne, -.5px -.5px 12px $shadowOne, .5px .5px 2px $colorTwo, .5px .5px 5px $heavyShadowTwo, .5px .5px 12px $shadowTwo;
+}
+@mixin mixedShadow1Large {
+    box-shadow: -.5px -.5px 5px $colorOne, -.5px -.5px 7.5px $heavyShadowOne, -.5px -.5px 16px $shadowOne, .5px .5px 5px $colorTwo, .5px .5px 7.5px $heavyShadowTwo, .5px .5px 16px $shadowTwo;
 }
 @mixin shadowFilter1 {
     filter: drop-shadow(-3px -3px 8px $colorOne) drop-shadow(-3px -3px 30px $heavyShadowOne) drop-shadow(-3px -3px 60px $shadowOne);
@@ -50,3 +53,12 @@ $textMedium: rgba(255, 255, 255, .7);
 $textWeak: rgba(255, 255, 255, .5);
 
 $ligthBlack: #0F172A;
+$ligthBlack2: rgb(35, 39, 35);
+
+@mixin background {
+    background-color: #36EB9B;
+	background-image: radial-gradient(100% 50% at 50% 0%, rgba(18,18,18,0.9) 0, rgba(18,18,18,0.95) 50%, rgba(18,18,18,1) 100%);
+}
+
+$breakpoint: 600px;
+$breakpoint2: 840px;
