@@ -23,7 +23,8 @@ const Portfolio = ()=> {
         setShowModal(true);
     }
 
-    const handleCloseModal = () => {
+    const handleCloseModal = (e) => {
+        e.preventDefault();
         setShowModal(false);
     }
 
