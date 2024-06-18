@@ -29,7 +29,13 @@ const Modal = ({ data, onClose }) => {
                     <p onClick={onClose} className={styles.close}>X</p>
                 </div>
                 <div className={styles.linkContainer}>
-                    <Link href={link} className={styles.link}>Go to project</Link>
+                    <Link
+                        href={link}
+                        className={styles.link}
+                        target="_blank"
+                    >
+                        Go to project
+                    </Link>
                 </div>
             </div>
         </div>
